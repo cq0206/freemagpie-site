@@ -1,0 +1,17 @@
+{
+  "name": "freemagpie-site",
+  "main": "src/worker.mjs",
+  "account_id": "860c1b5aa4b5dbc8dee6b1d411d5d284",
+  "compatibility_date": "2026-11-17",
+  "workers_dev": true,
+  "routes": [
+    { "pattern": "freemagpie.com", "custom_domain": true },
+    { "pattern": "www.freemagpie.com", "custom_domain": true }
+  ],
+  "assets": {
+    "binding": "ASSETS",
+    "run_worker_first": ["/api/*"],
+    "directory": ".",
+    "not_found_handling": "none"
+  }
+}
