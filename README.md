@@ -47,3 +47,5 @@ SHA256SUMS 与文件匹配；`/api/latest` 返回本发行版版本和哈希；
 ## 许可
 
 网站内容跟随主仓库的 MIT 许可，logo 来自上游 magpie（MIT）。
+
+官网下载采用 `freemagpie-*` 文件名，Mac ZIP 内为 `FreeMagpie.app`。Release 同时保留旧名附件，供既有版本的更新器使用。
